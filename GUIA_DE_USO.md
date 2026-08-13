@@ -57,6 +57,18 @@ Toda tabela comparativa deve ter critérios claros. Evite colunas vagas como “
 - Evite frases genéricas (“a interface deve ser intuitiva”). Diga **para quem**, **em qual tarefa** e **como será verificado**.
 - Use a terminologia do método corretamente. Ex.: MoLIC não é um fluxograma de telas; avaliação heurística não substitui teste com usuários.
 
+### 5.1 Fato, hipótese e lacuna de conhecimento
+
+Na primeira entrega, e sempre que ainda houver incerteza relevante, use a convenção:
+
+- **[F] Fato conhecido:** há fonte ou evidência identificável.
+- **[H] Hipótese:** afirmação plausível que ainda precisa ser investigada.
+- **[?] Não sabemos:** lacuna importante para uma decisão posterior.
+
+Não transforme uma hipótese em fato apenas porque ela parece intuitiva para a equipe. Hipóteses relevantes devem receber IDs (`H01`, `H02`...) e ser acompanhadas na [Matriz de rastreabilidade](RASTREABILIDADE.md). Quando uma entrega posterior produzir evidência, atualize o estado da hipótese como **sustentada, refutada ou refinada**, preservando o histórico.
+
+> Exemplo: `[H] H01 — usuários preferem realizar a atividade pelo celular.` Isso só pode virar fato quando a equipe indicar uma evidência compatível com essa afirmação.
+
 ## 6. Referências
 
 Ao usar uma fonte externa, informe pelo menos: autor/organização, título, ano (quando disponível), link e data de acesso quando pertinente. Referências acadêmicas centrais estão em [BIBLIOGRAFIA.md](BIBLIOGRAFIA.md).
@@ -75,7 +87,8 @@ Links para Figma, Forms, vídeos e planilhas devem:
 
 Antes de concluir qualquer etapa, responda:
 
-- O público desta entrega é o mesmo definido anteriormente?
+- As hipóteses e lacunas levantadas na Entrega 1 continuam abertas, foram sustentadas ou foram refutadas por alguma evidência?
+- O público desta entrega é o mesmo inicialmente levantado ou a mudança foi justificada por novas evidências?
 - Os objetivos das personas aparecem nos cenários?
 - As tarefas analisadas são relevantes para os cenários?
 - O modelo conceitual utiliza os mesmos signos e objetivos?
@@ -87,6 +100,10 @@ Use [RASTREABILIDADE.md](RASTREABILIDADE.md) para registrar essas relações.
 
 ## 9. Erros frequentes que este template procura evitar
 
+- iniciar o projeto descrevendo tecnologia antes de compreender usuário, objetivo, problema e contexto;
+- tratar “não existe um aplicativo” como problema do usuário, sem descrever a dificuldade real que existe hoje;
+- apresentar suposições sobre preferências, comportamentos ou dificuldades como fatos;
+- confundir objetivo do projeto (“desenvolver um sistema”) com objetivo do usuário (“conseguir realizar X”);
 - quantidade de artefatos menor que o número exigido de integrantes;
 - ausência do nome do autor em entregas individuais;
 - personas genéricas, estereotipadas ou sem relação com dados/evidências;

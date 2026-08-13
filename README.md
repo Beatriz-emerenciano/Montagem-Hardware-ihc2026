@@ -19,11 +19,13 @@
 | {{Nome 1}} | {{matrícula}} | {{@usuario}} | {{...}} |
 | {{Nome 2}} | {{matrícula}} | {{@usuario}} | {{...}} |
 
-## Resumo do produto
+## Resumo do projeto pela perspectiva do usuário
 
-Escreva **um parágrafo curto e concreto** explicando: qual problema é tratado, para quem, em qual contexto e qual produto/interação será projetado. Evite descrever apenas tecnologia.
+Escreva **um parágrafo curto e concreto** explicando: quem é o usuário, o que ele precisa alcançar, qual problema enfrenta hoje, em qual contexto isso acontece e qual produto/interação o TCC pretende explorar. Evite começar pela tecnologia.
 
-> **Exemplo de estrutura:** “O projeto propõe `{{produto}}` para `{{público}}`, que atualmente enfrenta `{{problema}}`. A solução será utilizada em `{{contexto}}` e permitirá `{{objetivos principais do usuário}}`.”
+> **Exemplo de estrutura:** “`{{tipo de usuário}}` precisa `{{objetivo do usuário}}`, mas atualmente enfrenta `{{problema}}` em `{{contexto}}`. Hoje essa atividade é realizada por `{{alternativa/processo atual}}`. O TCC investiga `{{produto/interação proposta}}` para apoiar esse objetivo.”
+
+Se alguma afirmação ainda não estiver sustentada por evidência, registre-a como hipótese na [Entrega 1](docs/01_conhecendo_o_problema.md), em vez de apresentá-la como fato.
 
 ## Como usar este repositório
 
@@ -33,12 +35,13 @@ Escreva **um parágrafo curto e concreto** explicando: qual problema é tratado,
 4. Salve imagens, diagramas e evidências em [`assets/`](assets/README.md), com nomes descritivos.
 5. Mantenha a [Matriz de rastreabilidade](RASTREABILIDADE.md) atualizada: uma boa entrega de IHC deve ser coerente com as anteriores e com as posteriores.
 6. Antes de cada entrega, revise o checklist específico do arquivo e o [Checklist final do projeto](CHECKLIST_FINAL.md).
+7. Na Entrega 1, diferencie explicitamente **[F] fatos**, **[H] hipóteses** e **[?] lacunas de conhecimento**. As hipóteses prioritárias devem ser acompanhadas na [Matriz de rastreabilidade](RASTREABILIDADE.md) e investigadas nas entregas posteriores.
 
 ## Entregas
 
 | # | Entrega | Quantidade mínima / responsabilidade | Status |
 |---:|---|---|---|
-| 1 | [Conhecendo o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | ⬜ |
+| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | ⬜ |
 | 2 | [Público-alvo e análise de concorrência](docs/02_analise_concorrencia.md) | no mínimo 1 concorrente/interface representativa por integrante + síntese da equipe | ⬜ |
 | 3 | [Personas, empatia, contexto e jornada](docs/03_personas_contexto_jornada.md) | 1 persona por integrante; demais artefatos consolidados por equipe | ⬜ |
 | 4 | [Cenários de análise/problema](docs/04_cenarios_problema.md) | 1 solução completa por integrante | ⬜ |
@@ -59,7 +62,7 @@ Escreva **um parágrafo curto e concreto** explicando: qual problema é tratado,
 
 O projeto deve formar uma cadeia de evidências:
 
-**Problema → público/contexto → necessidades → personas → cenários → tarefas → modelo conceitual → MoLIC → protótipo → planejamento → inspeção → teste com usuários → melhorias.**
+**Tema do TCC → usuários/stakeholders → objetivos do usuário → problema e contexto atuais → alternativas existentes → necessidades → personas → cenários → tarefas → modelo conceitual → MoLIC → protótipo → planejamento → inspeção → teste com usuários → melhorias.**
 
 Uma entrega não deve “reiniciar” o projeto. Se uma persona tem um objetivo importante, esse objetivo deve aparecer em cenários/tarefas; se a tarefa foi modelada em MoLIC, deve existir no Figma; se um problema é encontrado na avaliação, deve haver evidência e proposta de correção.
 

@@ -7,6 +7,14 @@
 
 Planejar dados necessários para compreender usuários e requisitos de IHC, escolher técnicas adequadas e documentar instrumentos de modo que a aplicação possa ser reproduzida por pessoas diferentes.
 
+## Hipóteses e lacunas prioritárias herdadas da Entrega 1
+
+Antes de decidir “que dados coletar”, retome os itens `[H]` e `[?]` da Entrega 1 e o registro de hipóteses em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md). A coleta deve responder perguntas reais do projeto, e não apenas produzir um formulário porque a técnica foi solicitada.
+
+| ID | Hipótese/lacuna | Evidência atual | Decisão que depende da resposta | Prioridade |
+|---|---|---|---|---|
+| H01 | {{...}} | {{...}} | {{...}} | alta / média / baixa |
+
 ## Parte A — necessidades e requisitos de IHC
 
 > **Responsabilidade:** solução individual por integrante.
@@ -17,9 +25,9 @@ Planejar dados necessários para compreender usuários e requisitos de IHC, esco
 
 #### Que dados coletar?
 
-| Dado/informação | Por que é necessário | Qual decisão de design pode afetar |
-|---|---|---|
-| {{...}} | {{...}} | {{...}} |
+| Dado/informação | Hipótese/lacuna relacionada | Por que é necessário | Qual decisão de design pode afetar |
+|---|---|---|---|
+| {{...}} | {{H01/H02/...}} | {{...}} | {{...}} |
 
 #### De quem coletar?
 
@@ -62,10 +70,12 @@ Cole aqui o questionário/roteiro completo ou forneça link **mais uma cópia te
 
 ## Síntese
 
-Explique quais lacunas de conhecimento sobre usuários o conjunto de técnicas pretende reduzir.
+Explique quais lacunas de conhecimento sobre usuários o conjunto de técnicas pretende reduzir. Indique explicitamente quais hipóteses da Entrega 1 deverão ficar **sustentadas, refutadas ou refinadas** após a análise dos dados. Quando os dados forem coletados/analisados, atualize o histórico em `RASTREABILIDADE.md`.
 
 ## Checklist
 
+- [ ] Hipóteses/lacunas prioritárias da Entrega 1 foram revisitadas.
+- [ ] Cada dado a coletar responde uma dúvida concreta do projeto ou justifica outra necessidade de informação.
 - [ ] Parte A identifica dados e perfis de coleta de forma específica.
 - [ ] Aspectos éticos são contextualizados para o projeto.
 - [ ] Há uma técnica completa por integrante e técnicas distintas.

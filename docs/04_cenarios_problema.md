@@ -10,11 +10,15 @@ Descrever situações atuais em que o usuário tenta alcançar um objetivo e enc
 
 > **Regra central:** cenário de problema é a “história do problema”. Se o texto já diz “o sistema mostra”, “o aplicativo resolve” ou descreve botões/telas futuras, provavelmente está misturando problema com solução.
 
+Sempre que possível, o cenário deve aprofundar uma **situação concreta já registrada na Entrega 1**. Se o integrante escolher um novo problema/situação, explique por que ele passou a ser relevante e indique a evidência que motivou sua inclusão.
+
 ## Cenário C01 — {{título}}
 
 **Autor(a):** {{nome — matrícula}}  
 **Persona(s) relacionada(s):** {{P01}}  
-**Necessidade relacionada:** {{R01}}
+**Necessidade relacionada:** {{R01}}  
+**Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
+**Hipóteses ainda presentes:** {{H01, H02 ou —}}
 
 ### 1. Cenário inicial
 
@@ -56,6 +60,7 @@ Quais tarefas merecem análise? Quais informações precisam ser coletadas? **N�
 
 - [ ] Há um cenário completo por integrante.
 - [ ] Cada cenário tem título, ator, objetivo, contexto e problema.
+- [ ] O cenário possui origem rastreável na Entrega 1 ou justifica claramente a inclusão de uma nova situação.
 - [ ] O texto descreve a situação atual, sem antecipar a solução.
 - [ ] Questões de refinamento acrescentam informação nova.
 - [ ] O refinamento mostra claramente o que foi adicionado/alterado.

@@ -10,6 +10,16 @@ Compreender soluções do mesmo domínio **e também interfaces familiares ao p�
 
 > **Concorrente não precisa ser idêntico ao produto.** Pode atuar na mesma área, resolver objetivo semelhante ou disputar a mesma necessidade. Quando não houver concorrente direto, use produtos análogos e softwares que o público já utiliza.
 
+## Entrada obrigatória da Entrega 1
+
+Retome o mapa inicial de alternativas e produtos citado na Entrega 1. Aqui a equipe deixa de trabalhar apenas com impressão inicial e passa a **investigar sistematicamente** cada solução.
+
+| Item citado na Entrega 1 | Tipo | Por que foi citado | Status inicial | Decisão nesta entrega |
+|---|---|---|---|---|
+| {{...}} | concorrente / análogo / ferramenta cotidiana / processo manual | {{...}} | F / H / ? | analisar / descartar com justificativa |
+
+Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, atualize `H01`, `H02`... em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
+
 ## 1. Público-alvo desta análise
 
 {{descrever e ligar à Entrega 1}}
@@ -85,6 +95,8 @@ Liste recomendações com origem explícita.
 
 ## Checklist
 
+- [ ] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
+- [ ] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
 - [ ] Há pelo menos uma análise completa por integrante.
 - [ ] Cada análise contém prints legíveis da interface.
 - [ ] Prints mostram telas/estados relevantes, não apenas logos/homepage.

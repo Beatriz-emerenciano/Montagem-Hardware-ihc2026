@@ -11,9 +11,19 @@
 - [ ] As quantidades mínimas por integrante foram atendidas.
 - [ ] Links externos (Figma, Forms, vídeos) foram testados sem autenticação privilegiada.
 
+## Fundação do projeto — Entrega 1
+
+- [ ] O projeto foi descrito pela perspectiva do usuário, e não apenas pela tecnologia.
+- [ ] Objetivo do projeto e objetivo do usuário foram diferenciados.
+- [ ] O processo/alternativa usada atualmente pelo usuário foi documentado.
+- [ ] Existe ao menos uma situação concreta que demonstra o problema em contexto.
+- [ ] Fatos, hipóteses e lacunas importantes foram diferenciados (`[F]`, `[H]`, `[?]`).
+- [ ] Hipóteses prioritárias possuem IDs e histórico na matriz de rastreabilidade.
+- [ ] Hipóteses críticas foram investigadas posteriormente ou permanecem explicitamente registradas como limitações.
+
 ## Coerência de IHC
 
-- [ ] Público-alvo, personas e participantes de pesquisa/teste são coerentes.
+- [ ] Público-alvo, personas e participantes de pesquisa/teste são coerentes com a evolução das evidências coletadas.
 - [ ] Cenários de problema descrevem o problema sem antecipar a solução.
 - [ ] Tarefas analisadas correspondem a objetivos importantes das personas.
 - [ ] Modelo conceitual, signos e MoLIC usam terminologia consistente.
