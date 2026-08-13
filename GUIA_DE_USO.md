@@ -2,6 +2,45 @@
 
 Este guia existe para evitar que o repositório seja apenas um conjunto de respostas soltas. O GitHub deve funcionar como **documentação técnica e acadêmica navegável**, permitindo compreender o raciocínio de projeto e verificar as evidências.
 
+## 0. Regra pedagógica: tema do TCC não é o mesmo que escopo de IHC
+
+A disciplina usa o **tema do TCC** como domínio para os exercícios. Isso não significa que todo TCC deva ter uma interface como entrega formal.
+
+Quando o TCC já possui interface prevista, a disciplina pode trabalhar diretamente sobre ela. Quando o TCC não possui interface prevista, a equipe deve construir um **recorte de interação plausível** para fins de aprendizagem. Esse recorte deve partir da contribuição técnica e de pessoas que poderiam configurá-la, operá-la, interpretar seus resultados, administrá-la ou se beneficiar dela.
+
+A interface produzida na disciplina pode ser:
+
+- parte já prevista no TCC;
+- uma extensão conceitual;
+- um protótipo demonstrativo;
+- uma hipótese de produto futuro;
+- uma forma de demonstrar aplicação e potencial de mercado/INOVA.
+
+Ela **não precisa ser implementada no TCC**, salvo decisão posterior da equipe e do orientador.
+
+Antes da Entrega 1, leia [GUIA_ESCOPO_IHC.md](GUIA_ESCOPO_IHC.md).
+
+### 0.1 Como derivar uma interface sem inventar telas arbitrárias
+
+Use a cadeia:
+
+**contribuição do TCC → usuário plausível → objetivo → tarefa → contexto → necessidade de interação → interface**.
+
+Exemplos de necessidades que podem emergir:
+
+- acompanhar resultados em um **dashboard**;
+- configurar parâmetros técnicos por uma **tela de administração/configuração**;
+- consultar **relatórios** e exportar evidências;
+- recuperar execuções em um **histórico com busca, ordenação e filtros**;
+- comparar algoritmos, modelos, versões ou períodos;
+- administrar **usuários, papéis e permissões**;
+- realizar CRUD de entidades quando isso fizer parte de uma tarefa real do domínio;
+- acompanhar processamento, filas, falhas e reexecuções;
+- revisar resultados produzidos por IA e registrar correções;
+- consultar logs/auditoria em linguagem adequada ao perfil.
+
+Esses padrões são **possibilidades**, não requisitos. Não crie login, dashboard, CRUD ou filtros apenas para aumentar o número de telas. Cada elemento deve responder a uma necessidade rastreável.
+
 ## 1. Padrão de cada entrega
 
 Cada arquivo em `docs/` segue, sempre que aplicável, esta estrutura:
@@ -88,6 +127,7 @@ Links para Figma, Forms, vídeos e planilhas devem:
 Antes de concluir qualquer etapa, responda:
 
 - As hipóteses e lacunas levantadas na Entrega 1 continuam abertas, foram sustentadas ou foram refutadas por alguma evidência?
+- O **escopo de IHC** continua coerente com a contribuição do TCC e com o usuário escolhido, ou alguma evidência justificou sua revisão?
 - O público desta entrega é o mesmo inicialmente levantado ou a mudança foi justificada por novas evidências?
 - Os objetivos das personas aparecem nos cenários?
 - As tarefas analisadas são relevantes para os cenários?
@@ -100,6 +140,9 @@ Use [RASTREABILIDADE.md](RASTREABILIDADE.md) para registrar essas relações.
 
 ## 9. Erros frequentes que este template procura evitar
 
+- confundir o escopo formal do TCC com o escopo pedagógico de IHC;
+- concluir que “não há projeto de IHC” apenas porque o TCC não previa interface;
+- inventar uma interface genérica (login + dashboard + CRUD) sem derivá-la de usuário, objetivo e contexto;
 - iniciar o projeto descrevendo tecnologia antes de compreender usuário, objetivo, problema e contexto;
 - tratar “não existe um aplicativo” como problema do usuário, sem descrever a dificuldade real que existe hoje;
 - apresentar suposições sobre preferências, comportamentos ou dificuldades como fatos;
