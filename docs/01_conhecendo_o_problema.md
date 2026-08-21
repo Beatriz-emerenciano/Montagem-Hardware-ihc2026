@@ -57,8 +57,10 @@ Uma hipótese explicitada é melhor do que uma suposição escondida.
 
 ## 0.1 Membros
 
-| Nome completo | Matrícula | GitHub |
+| Nome completo | Matrícula | GitHub | 
+
 | Beatriz Cristina Emerenciano| 22.222041-0 | Beatriz-emerenciano |
+
 |Larissa Santos Fiuza|22.123.042-8|LarissaFiuza7
 
 ## 0.2 Título atual do TCC
