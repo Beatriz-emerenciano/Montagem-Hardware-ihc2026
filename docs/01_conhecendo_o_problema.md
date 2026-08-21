@@ -58,24 +58,24 @@ Uma hipótese explicitada é melhor do que uma suposição escondida.
 ## 0.1 Membros
 
 | Nome completo | Matrícula | GitHub |
-|---|---:|---|
-| {{...}} | {{...}} | {{...}} |
+| Beatriz Cristina Emerenciano| 22.222041-0 | Beatriz-emerenciano |
+|Larissa Santos Fiuza|22.123.042-8|LarissaFiuza7
 
 ## 0.2 Título atual do TCC
 
-{{...}}
+ Plataforma educacional para ensino de Montagem de Hardware.
 
 ## 0.3 Orientador(a)
 
-{{...}}
+Rafael Gomes Alves
 
 ## 0.4 Qual é o resultado principal atualmente previsto no TCC?
 
 Marque e descreva:
 
-- [ ] sistema/aplicação interativa;
+- [x] sistema/aplicação interativa;
 - [ ] algoritmo;
-- [ ] modelo de IA/ML/LLM;
+- [x] modelo de IA/ML/LLM;
 - [ ] biblioteca/API/framework;
 - [ ] análise de dataset;
 - [ ] estudo/benchmark/avaliação experimental;
@@ -83,59 +83,49 @@ Marque e descreva:
 - [ ] componente embarcado/IoT;
 - [ ] outro: {{...}}.
 
-**Descrição:** {{...}}
+**Descrição:** 
+Compreensão das funcionalidades e da montagem de componentes de hardware através de uma plataforma digital.
 
 ## 0.5 O TCC já previa desenvolvimento de interface com usuário?
 
-- [ ] Sim, a interface já faz parte do TCC.
+- [x] Sim, a interface já faz parte do TCC.
 - [ ] Parcialmente; existe alguma interação, mas ainda não está bem definida.
 - [ ] Não. O TCC é predominantemente técnico e não previa interface.
 
-**Explique o que está formalmente previsto no TCC:** {{...}}
+**Explique o que está formalmente previsto no TCC:** Desenvolver uma plataforma com interface para ensino e montagem de componentes de hardware.
 
 > Esta resposta serve para separar o compromisso do TCC do projeto da disciplina. Mesmo quando a opção for **não**, a equipe irá definir uma interface para exercitar IHC.
-
----
 
 # 1. Entendendo a contribuição do projeto
 
 ## 1.1 Explique o TCC em uma frase, sem citar linguagem de programação, framework ou banco de dados.
 
-{{...}}
+Ensino de componentes e montagem de hardware.
 
 ## 1.2 Qual situação, atividade ou problema do mundo real motivou o TCC?
 
-{{[F/H/?] ...}}
+[H] H01 - Muitas pessoas não conseguem identificar corretamente as peças de um computador nem compreender a ordem e a forma correta de montagem, o que dificulta o aprendizado e aumenta a chance de erros durante o processo.
 
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
 
-Complete, se ajudar:
-
-> “Nosso TCC produz, melhora, analisa ou permite `{{capacidade}}`.”
-
-Exemplos: otimizar consultas; classificar imagens; detectar anomalias; comparar modelos; identificar padrões; prever demanda; analisar desempenho; gerar resumos; recomendar configurações.
-
-{{...}}
+Nosso TCC propõe, o desenvolvimento de uma plataforma educacional com visão computacional, focada no ensino interativo de hardware, o sistema permite o usuário identificar, explorar e compreender os principais componentes de um computador, além de realizar a montagem por meio de tutoriais guiados. A solução visa democratizar o acesso ao conhecimento técnico, antendendo desde iniciantes até aqueles que buscam consolidar conhecimentos básicos de forma prática e inovadora.
 
 ## 1.4 O que se espera que esteja diferente **para pessoas, organizações ou processos** se essa contribuição for bem-sucedida?
 
-{{[F/H/?] ...}}
+[H] H02 - Ensino interativo tutorizado.
 
 ## 1.5 O que é mérito técnico/científico do TCC e o que seria uma possível aplicação prática?
 
 | Mérito/contribuição técnica | Possível aplicação/valor em uso |
-|---|---|
-| {{...}} | {{...}} |
 
----
+ A contribuição visa democratizar o acesso ao conhecimento técnico, antendendo desde iniciantes até aqueles que buscam consolidar conhecimentos básicos de forma prática e inovadora.
+
 
 # 2. Entendendo as pessoas envolvidas
 
-## 2.1 Quem interage diretamente com o produto, se já existe interface prevista?
+## 2.1 Quem interage diretamente com o produto, se já existe interface prevista? - 
+[H] H02 - 
 
-Se não houver interface prevista no TCC, escreva `NÃO SE APLICA AO ESCOPO ORIGINAL` e prossiga para 2.2.
-
-{{[F/H/?] ...}}
 
 ## 2.2 Quem poderia **usar, configurar, administrar, operar, interpretar ou tomar decisões** a partir da contribuição técnica?
 
