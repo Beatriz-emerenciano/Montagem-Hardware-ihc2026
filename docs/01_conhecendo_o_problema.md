@@ -138,11 +138,17 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
 
 Estudante aluno| usuário final e principal beneficiário|Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores|f - público-alvo definido|
+
 Instrutor de iformática| usuário educacional indireto|Poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware|H - possível aplicação|
+
 Professor responsável pela pela disciplina| steakholders educacional|Poderia interpretar o desempenho dos alunos e utilizar os resultados para identificar dificuldades de aprendizagem|H - depende da implementação de recursos de acompanhamento|
+
 Instituição de ensino|Stakeholder institucional|Poderia disponibilizar o Serious Game como ferramenta complementar para disciplinas ou cursos relacionados a informática e hardware|H possível aplicação|
+
 Pesquisador da área de tecnologia|Usuário dos resultados da contribuição científica|Poderia analisar os resultados obtidos na avaliação do Serious Game e utilizá-los como referência para pesquisas futuras|H -aplicação acadêmica possível|
+
 Equipe desenvolvedora|Administrador/configurador do sistema|Configuraria conteúdos, fases, componentes, regras e elementos do jogo|F - responsabilidade da equipe no desenvolvimento|
+
 
 
 
@@ -152,7 +158,7 @@ Equipe desenvolvedora|Administrador/configurador do sistema|Configuraria conteú
 |---|---|---|---|
 | {{...}} | {{...}} | sim/não | {{...}} |
 
-Professores | Podem fornecer a interface para alunos para auxílio no estudo| sim/não, não é necessário mas pode utilizar para demonstração | 
+[f]Professores | Podem fornecer a interface para alunos para auxílio no estudo| sim/não, não é necessário mas pode utilizar para demonstração | 
 
 ## 2.4 Que características desses perfis podem influenciar a interação?
 
@@ -160,7 +166,7 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 {{[F/H/?] ...}}
 
- [H] -  Aluno  Podem ser beneficiados futuramente pela disponibilização do jogo como ferramenta de aprendizagem. 
+ [H] - Aluno  Podem ser beneficiados futuramente pela disponibilização do jogo como ferramenta de aprendizagem. 
  [H] - Professor pode utilizar o jogo como recurso complementar ao ensino e como apoio às atividades práticas.
 [H] -Instituição de ensino Pode incorporar a ferramenta como recurso educacional complementar e reduzir a necessidade de equipamentos físicos para determinadas atividades introdutória.
 [H] - Pesquisadores podem utilizar e interpretar os resultados da avaliação para pesquisas relacionadas a Serious Games, educação e tecnologia. 
@@ -171,6 +177,7 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 ## 3.1 O que o usuário está tentando conseguir no mundo real?
 
 Não responda “usar o algoritmo”, “clicar no sistema” ou “ver o dashboard”.
+f[]
 
 {{[F/H/?] ...}}
 
@@ -223,7 +230,7 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 {{[F/H/?] ...}}
 
 [F] Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores pode ser realizado por meio de aulas teóricas, materiais didáticos, vídeos, manuais, tutoriais online e atividades práticas com equipamentos físicos. Durante atividades presenciais, o estudante pode receber orientações de professores ou instrutores e manipular diretamente os componentes para compreender sua função e forma de instalação.
-[F] Também existem conteúdos e tutoriais digitais (Softawares) que apresentam os componentes e demonstram procedimentos de montagem por meio de gamificação.
+[F] Também existem conteúdos e tutoriais digitais (Softawares) que apresentam os componentes e demonstram procedimentos de montagem por meio de gamificação de spftwares já existentes.
 
 ## 4.2 O que é difícil, demorado, confuso, repetitivo, arriscado ou pouco transparente?
 
@@ -273,6 +280,8 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 | {{Literatura sobre ensino de hardware e montagem de computadores}} | {{Sustenta a necessidade de conhecimento sobre identificação, função e instalação dos componentes}} | {{Pode abordar métodos tradicionais sem considerar a proposta específica do projeto}} |
 
 |{{Materiais didáticos, tutoriais e vídeos sobre montagem de computadores}}|{{Demonstram como o conteúdo é atualmente apresentado aos estudantes}}|{[Normalmente são materiais passivos, com menor possibilidade de interação e prática}}|
+
+|{{Curso técnico de informática}}|[{Sustenta a necessidade de conhecimento sobre identificação, função e instalação dos componentes}}|{{Pode abordar métodos tradicionais e exclusivos de quem realiza o curso presencial}}|
 
 ---
 
@@ -347,7 +356,8 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 # 6. Entendendo mercado e alternativas existentes
 
 > Nesta entrega faça apenas um **levantamento inicial**. A análise aprofundada ocorre na Entrega 2.
-> Um exemplo comercial é o PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.
+>[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.
+>[F] Assistente de montagem de PC IA MANUS.
 
 
 ## 6.1 Como pessoas resolvem problemas semelhantes hoje?
@@ -363,7 +373,8 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
 Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.
-
+[F] > Assistente de montagem de PC IA MANUS.
+[F] > PC Building Simulator
 {{[F/H/?] ...}}
 
 ## 6.4 O que essas soluções parecem fazer bem?
