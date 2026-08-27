@@ -65,7 +65,7 @@ Uma hipótese explicitada é melhor do que uma suposição escondida.
 
 ## 0.2 Título atual do TCC
 
- Desenvolvimento de um jogo sério e estudo experimental de avbordagens combinadas para ensino de montagme de hardware.
+ Desenvolvimento de um jogo sério e estudo experimental de abordagens combinadas para ensino de montagme de hardware.
 
 ## 0.3 Orientador(a)
 
@@ -102,7 +102,7 @@ Estudo experimental de abordagens combinadas sendo jogo sério e tutorial para e
 
 ## 1.1 Explique o TCC em uma frase, sem citar linguagem de programação, framework ou banco de dados.
 
-Desenvolvimento de um jogo sério e extudo experimental de abordagens de aprendizado.
+Desenvolvimento de um jogo sério e estudo experimental de abordagens de aprendizado.
 
 ## 1.2 Qual situação, atividade ou problema do mundo real motivou o TCC?
 
@@ -151,6 +151,8 @@ Equipe desenvolvedora|Administrador/configurador do sistema|Configuraria conteú
 | Stakeholder | Como é afetado | Usa interface? | Status/evidência |
 |---|---|---|---|
 | {{...}} | {{...}} | sim/não | {{...}} |
+
+Professores | Podem fornecer a interface para alunos para auxílio no estudo| sim/não, não é necessário mas pode utilizar para demonstração | 
 
 ## 2.4 Que características desses perfis podem influenciar a interação?
 
