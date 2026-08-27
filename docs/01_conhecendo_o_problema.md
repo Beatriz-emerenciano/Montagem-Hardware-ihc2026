@@ -158,7 +158,7 @@ Equipe desenvolvedora|Administrador/configurador do sistema|Configuraria conteú
 |---|---|---|---|
 | {{...}} | {{...}} | sim/não | {{...}} |
 
-[f]Professores | Podem fornecer a interface para alunos para auxílio no estudo| sim/não, não é necessário mas pode utilizar para demonstração | 
+[H]Professores | Podem fornecer a interface para alunos para auxílio no estudo| sim/não, não é necessário mas pode utilizar para demonstração | 
 
 ## 2.4 Que características desses perfis podem influenciar a interação?
 
@@ -177,7 +177,7 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 ## 3.1 O que o usuário está tentando conseguir no mundo real?
 
 Não responda “usar o algoritmo”, “clicar no sistema” ou “ver o dashboard”.
-f[]
+[f] O usuário busca adquirir conhecimento sobre computadores em geral tanto em nível básico quanto em nível técnico.  
 
 {{[F/H/?] ...}}
 
@@ -216,10 +216,7 @@ f[]
 
 {{[F/H/?] ...}}
 
-[F] Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores pode ser realizado por meio de aulas teóricas, materiais didáticos, vídeos, manuais, tutoriais online e atividades práticas com equipamentos físicos. Durante atividades presenciais, o estudante pode receber orientações de professores ou instrutores e manipular diretamente os componentes para compreender sua função e forma de instalação.
-[F] Também existem conteúdos e tutoriais digitais que apresentam os componentes e demonstram procedimentos de montagem, geralmente por meio de textos, imagens e vídeos.
-[H] Entretanto, esses métodos podem apresentar limitações quanto à possibilidade de o estudante praticar repetidamente e de forma interativa, especialmente quando não há disponibilidade de equipamentos físicos ou acompanhamento imediato durante a atividade.
-[H] O Serious Game proposto busca atuar como uma ferramenta complementar a esses métodos, permitindo a prática virtual, a repetição das atividades e o recebimento de feedback durante a realização das etapas de montagem.
+[f]A06 -Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores normalmente é realizado por meio de aulas teóricas, materiais didáticos, vídeos, manuais e tutoriais online. E nossa proposta visa a visualização da peça em si e do processo de montagem e áreas de encaixe, sem essa atividade nosso projeto não tem finalidade nem inovação.
 
 # 4. Entendendo o problema ou processo atual
 
@@ -229,8 +226,8 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 
 {{[F/H/?] ...}}
 
-[F] Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores pode ser realizado por meio de aulas teóricas, materiais didáticos, vídeos, manuais, tutoriais online e atividades práticas com equipamentos físicos. Durante atividades presenciais, o estudante pode receber orientações de professores ou instrutores e manipular diretamente os componentes para compreender sua função e forma de instalação.
-[F] Também existem conteúdos e tutoriais digitais (Softawares) que apresentam os componentes e demonstram procedimentos de montagem por meio de gamificação de spftwares já existentes.
+[F] Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores pode ser realizado durante atividades presenciais, o estudante pode receber orientações de professores ou instrutores e não manipula diretamente os componentes.
+[F] Também existem conteúdos e tutoriais digitais (Softwares) que apresentam os componentes e demonstram procedimentos de montagem por meio de gamificação de softwares já existentes.
 
 ## 4.2 O que é difícil, demorado, confuso, repetitivo, arriscado ou pouco transparente?
 
@@ -240,29 +237,27 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 
 [F] Também pode ser difícil compreender a ordem de montagem e identificar corretamente onde cada componente deve ser instalado. A aprendizagem prática depende, muitas vezes, da disponibilidade de equipamentos físicos e da orientação de um professor ou pessoa com conhecimento técnico.
 
-[H] A repetição da montagem pode ser limitada pela quantidade de equipamentos disponíveis e pelo tempo destinado às atividades práticas.
-
-[H] A ausência de feedback imediato durante uma atividade realizada de forma autônoma pode dificultar a identificação e correção de erros pelo estudante.
-
-[F] A tecnologia necessária para colocar em prática a proposta envolve o desenvolvimento de uma aplicação web interativa, utilizando recursos de programação, computação gráfica e modelos tridimensionais.
+[F] Os componentes são muito delicados e além de possuir pequenos pinos que podem entortar no processo de montagem ainda podem ser danificados pela eletrização do corpo humano.
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?
 
 {{[F/H/?] ...}}
-[F] O estudante precisa interpretar informações relacionadas à identificação dos componentes, suas funções, características básicas, compatibilidade e local de instalação na placa-mãe.
+[F] O estudante precisa interpretar informações relacionadas à identificação dos componentes, suas funções, características básicas, por exemplo a compatibilidade e local de instalação na placa-mãe.
 
 [F] Durante a montagem, também precisa compreender a sequência adequada das etapas e reconhecer os locais correspondentes a cada componente.
 
 [H] O estudante pode utilizar essas informações para decidir qual componente deve ser instalado, onde deve ser colocado e qual procedimento deve ser realizado em cada etapa da montagem.
+
+[F] Durante a escolha das peças do computador que será montado o conhecimento para que os componentes sejam compatíveis e a maquina funcione corretamente é essencial.
 
 ## 4.4 O que acontece quando a atividade falha ou quando o resultado é interpretado incorretamente?
 
 {{[F/H/?] ...}}
 [F] Quando um estudante identifica incorretamente um componente ou interpreta de forma equivocada as instruções de montagem, pode realizar uma etapa incorreta ou instalar um componente em um local inadequado.
 
-[F] Em uma atividade prática com equipamentos reais, um procedimento inadequado pode resultar em danos aos componentes dependendo do procedimento realizado.", além de exigir a intervenção de um professor ou técnico para identificar e corrigir o erro.
+[F] Em uma atividade prática com equipamentos reais, um procedimento inadequado pode resultar em danos aos componentes dependendo do procedimento realizado, além de exigir a intervenção de um professor ou técnico para identificar e corrigir o erro.
 
-[H] No contexto educacional, a repetição de procedimentos incorretos sem feedback adequado pode contribuir para a consolidação de conhecimentos equivocados e dificultar o aprendizado posterior.
+[H] No contexto educacional, a repetição de procedimentos incorretos sem feedback adequado pode contribuir para a consolidação de conhecimentos equivocados e danificação de componentes.
 
 [F] Além disso, erros durante atividades práticas podem gerar insegurança no estudante e aumentar a necessidade de acompanhamento por parte do professor ou instrutor.
 
@@ -316,7 +311,7 @@ Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartil
 
 [H] Em dispositivos móveis, o tamanho da tela pode influenciar a interação com os modelos 3D e elementos do jogo, sendo necessário considerar uma interface responsiva e adequada ao uso por toque.
 
-[H] O usuário poderá sofrer interrupções durante a atividade, principalmente quando utilizar o sistema em ambientes externos ou compartilhados. Por isso, o salvamento do progresso poderá permitir que o estudante retome as atividades posteriormente.
+[?] O usuário poderá sofrer interrupções durante a atividade, principalmente quando utilizar o sistema em ambientes externos ou compartilhados. Por isso, o salvamento do progresso poderá permitir que o estudante retome as atividades posteriormente.
 
 ## 5.4 Existem fatores sociais ou organizacionais?
 
@@ -324,20 +319,12 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 {{[F/H/?] ...}}
 
-[F] O principal contexto social considerado é o educacional, envolvendo estudantes, professores e instituições de ensino ou uso individual.
-
-[H] O professor poderá atuar como orientador da atividade, indicando o uso do Serious Game como complemento às aulas teóricas ou práticas.
-
-[H] A aplicação poderá ser utilizada individualmente ou como parte de uma atividade proposta pelo professor, podendo também permitir atividades em grupo nas quais os estudantes discutam as decisões relacionadas à montagem.
-
 [F] Durante o desenvolvimento e avaliação do projeto, a equipe responsável pelo TCC será responsável pela configuração dos conteúdos, implementação das funcionalidades e realização dos testes.
 
 ## 5.5 Existe necessidade de histórico, rastreabilidade ou auditoria?
 
 {{[F/H/?] ...}}
-[F] Para o funcionamento básico do Serious Game, não há necessidade de mecanismos formais de auditoria ou rastreabilidade, pois o sistema possui finalidade educacional e não envolve decisões profissionais críticas.
-
-[H] Entretanto, o armazenamento do progresso do estudante, como fases concluídas, pontuação, erros e desempenho, poderá ser utilizado para permitir que o usuário acompanhe sua evolução durante o uso da aplicação.
+[F] Para o funcionamento básico do Serious Game, não há necessidade de mecanismos formais de auditoria ou rastreabilidade, pois o sistema possui finalidade educacional e não envolve decisões profissionais críticas. Entretanto, o armazenamento do progresso do estudante, como fases concluídas, pontuação, erros e desempenho, poderá ser utilizado para permitir que o usuário acompanhe sua evolução durante o uso da aplicação.
 
 [H] Durante a avaliação do TCC, dados relacionados ao desempenho dos participantes poderão ser registrados para posterior análise dos resultados, respeitando os procedimentos definidos para a pesquisa.
 
@@ -345,30 +332,27 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 {{[F/H/?] ...}}
 
-[F] No contexto do Serious Game, um erro cometido pelo estudante durante uma atividade virtual não produz dano físico aos componentes, pois a interação ocorre em um ambiente simulado.
-
-[H] Entretanto, a apresentação de uma informação incorreta, a validação inadequada de uma montagem ou um feedback equivocado pode levar o estudante a compreender ou memorizar um procedimento incorreto.
-
-[H] Caso esse conhecimento seja posteriormente aplicado em uma montagem física, um procedimento inadequado poderá causar mau funcionamento ou, dependendo da ação realizada, danos aos componentes. Por isso, a precisão das informações e das regras de validação do jogo é relevante para a confiabilidade educacional da aplicação.
+[F] No contexto do Serious Game, um erro cometido pelo estudante durante uma atividade virtual não produz dano físico aos componentes, pois a interação ocorre em um ambiente simulado. Entretanto, a apresentação de uma informação incorreta, a validação inadequada de uma montagem ou um feedback equivocado pode levar o estudante a compreender ou memorizar um procedimento incorreto. Caso esse conhecimento seja posteriormente aplicado em uma montagem física, um procedimento inadequado poderá causar mau funcionamento ou, dependendo da ação realizada, danos aos componentes. Por isso, a precisão das informações e das regras de validação do jogo é relevante para a confiabilidade educacional da aplicação.
 
 ---
 
 # 6. Entendendo mercado e alternativas existentes
 
 > Nesta entrega faça apenas um **levantamento inicial**. A análise aprofundada ocorre na Entrega 2.
->[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.
->[F] Assistente de montagem de PC IA MANUS.
+
 
 
 ## 6.1 Como pessoas resolvem problemas semelhantes hoje?
 
 | Alternativa atual | Quem usa | Para quê | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+|Levar as peças a um técnico para que ele realize a montagem ou assistir vídeos tutoriais no Youtube| Qualquer usuário que não tenha conhecimento técnico para realizar a montagem sem auxilio | Para realizar a montagem de um computador para usar em casa, seja para pesquisa, para jogar e diversos usos pessoais | F |
 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
 
 {{[F/H/?] ...}}
+[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.
+[F] Assistente de montagem de PC IA MANUS.
 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
@@ -398,8 +382,6 @@ Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, 
 [H] Algumas alternativas podem estar mais voltadas à simulação de montagem e reparo para usuários interessados em hardware do que especificamente ao processo de aprendizagem introdutória.
 
 [H] Soluções que dependem de equipamentos específicos, como dispositivos de realidade virtual, podem apresentar maior dificuldade de acesso devido à necessidade de hardware adicional.
-
-[?] Ainda é necessário realizar uma análise mais aprofundada das soluções existentes para verificar quais funcionalidades educacionais, recursos de acessibilidade e limitações de uso estão presentes em cada alternativa.
 
 ## 6.6 Que padrões de interface ou vocabulário parecem familiares a esse público?
 
