@@ -407,6 +407,8 @@ Explique qual parte da interface será usada como recorte da disciplina e por qu
 
 {{O recorte da interface será o fluxo de aprendizagem e montagem virtual de componentes de hardware, desde a seleção de um componente no jogo até sua identificação, visualização das informações, posicionamento no local correto e recebimento de feedback sobre a ação realizada.}}
 
+O recorte da interface será o fluxo de aprendizagem e montagem virtual de componentes de hardware, desde a seleção de um componente até sua identificação, visualização das informações, posicionamento no local correto e recebimento de feedback. Esse fluxo é relevante por representar a principal interação do estudante com o Serious Game e estar diretamente relacionado ao objetivo de ensinar conceitos e procedimentos básicos de montagem de computadores. Além disso, permite avaliar aspectos de IHC, como aprendizagem, clareza, feedback, prevenção de erros e facilidade de interação.
+
 ### Caminho B — TCC não possui interface prevista
 
 Faça o exercício de transferência de uso:
@@ -415,28 +417,28 @@ Faça o exercício de transferência de uso:
 
 Responda:
 
-1. quem poderia contratar/adotar a solução? {{...}}
-2. quem seria o usuário direto? {{...}}
-3. quem administraria/configuraria? {{...}}
-4. quem interpretaria resultados? {{...}}
-5. quem tomaria decisões? {{...}}
-6. quais dados/entradas seriam necessários? {{...}}
-7. quais resultados deveriam ser compreendidos? {{...}}
-8. que erros/rupturas seriam possíveis? {{...}}
+1. quem poderia contratar/adotar a solução? {{qualquer pessoa que deseja adquerir conhecimento em componentes e montagem de hardware}}
+2. quem seria o usuário direto? {{Qualquer pessoa}}
+3. quem administraria/configuraria? {{ Criadores do Software}}
+4. quem interpretaria resultados? {{Sistema}}
+5. quem tomaria decisões? {{Sistema}}
+6. quais dados/entradas seriam necessários? {{dados sobre hardware}}
+7. quais resultados deveriam ser compreendidos? {{avaliação de aspectos compreendidos no aprendizado}}
+8. que erros/rupturas seriam possíveis? {{compreençao e montagem errada sobre dos componentes de hardware }}
 
 ## 7.2 Qual perfil será priorizado no projeto de IHC?
 
-{{...}}
+{{Aluno}}
 
-**Por que esse perfil foi escolhido?** {{...}}
+**Por que esse perfil foi escolhido?** {{Pois esse será melhor trabalhando ao longo do projeto}}
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
-{{...}}
+{{Aprender sobre os componentes e montar um hardware}}
 
 ## 7.4 Que interface será explorada na disciplina?
 
-Complete:
+Complete: Montagem de hardware e tutorial, avaliação.
 
 > **Para fins da disciplina de IHC, será projetada uma interface que permita a `{{perfil}}` utilizar `{{capacidade/resultado do TCC}}` para `{{objetivo}}`, no contexto de `{{situação}}`.**
 
@@ -444,8 +446,8 @@ Complete:
 
 ## 7.5 Qual é a relação dessa interface com o TCC?
 
-- [ ] Já fazia parte do TCC.
-- [ ] É um aprofundamento de algo parcialmente previsto.
+- [x] Já fazia parte do TCC.
+- [x] É um aprofundamento de algo parcialmente previsto.
 - [ ] É uma extensão conceitual criada para a disciplina.
 - [ ] É um protótipo demonstrativo de aplicação potencial.
 - [ ] Outra: {{...}}.
@@ -462,9 +464,9 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim/não/talvez | {{...}} | {{...}} |
-| Configuração/parametrização | sim/não/talvez | {{...}} | {{...}} |
-| Entrada/upload/seleção de dados | sim/não/talvez | {{...}} | {{...}} |
+| Dashboard/visão geral | sim/não/talvez | {{dashbord}} | {{talvez}} |
+| Configuração/parametrização | sim/não/talvez | {{parametrização}} | {{talvez}} |
+| Entrada/upload/seleção de dados | sim/não/talvez | {{seleção de dados}} | {{sim}} |
 | Acompanhamento de processamento | sim/não/talvez | {{...}} | {{...}} |
 | Relatório/resultados | sim/não/talvez | {{...}} | {{...}} |
 | Histórico com busca/filtros | sim/não/talvez | {{...}} | {{...}} |
