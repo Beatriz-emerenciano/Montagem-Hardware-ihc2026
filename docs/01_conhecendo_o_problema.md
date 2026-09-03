@@ -136,7 +136,6 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | Perfil | Relação com a contribuição | O que faria | Status/evidência |
 |---|---|---|---|
 | {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
-
 |{{ Estudante e usuário que não possui conhecimentos prévios | Usuário final e principal beneficiário | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores.}} | F - Público-alvo definido |
 | Instrutor de informática | Usuário educacional indireto | Poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware. | H - Possível aplicação |
 | Professor responsável pela disciplina | Stakeholder educacional | Poderia interpretar o desempenho dos alunos e utilizar os resultados para identificar dificuldades de aprendizagem. | H - Depende da implementação de recursos de acompanhamento |
@@ -153,7 +152,6 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 | Stakeholder | Como é afetado | Usa interface? | Status/evidência |
 |---|---|---|---|
 | {{...}} | {{...}} | sim/não | {{...}} |
-
 |{{Professores }}|{{ Podem fornecer a interface para alunos para auxílio no estudo}}| sim/não, não é necessário mas pode utilizar para demonstração |{{[H]}}| 
 
 ## 2.4 Que características desses perfis podem influenciar a interação?
@@ -162,8 +160,8 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 {{[F/H/?] ...}}
 
- {{[H] - Aluno  Podem ser beneficiados futuramente pela disponibilização do jogo como ferramenta de aprendizagem. }}
- {{[H] - Professor pode utilizar o jogo como recurso complementar ao ensino e como apoio às atividades práticas.}}
+{{[H] - Aluno  Podem ser beneficiados futuramente pela disponibilização do jogo como ferramenta de aprendizagem. }}
+{{[H] - Professor pode utilizar o jogo como recurso complementar ao ensino e como apoio às atividades práticas.}}
 {[[H] -Instituição de ensino Pode incorporar a ferramenta como recurso educacional complementar e reduzir a necessidade de equipamentos físicos para determinadas atividades introdutória.}}
 {{[H] - Pesquisadores podem utilizar e interpretar os resultados da avaliação para pesquisas relacionadas a Serious Games, educação e tecnologia.}}
 {{[H] - Instrutor de informática poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware}}
@@ -467,7 +465,7 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 | Configuração/parametrização | sim | {{ sim}} | {{analise e configuração de paramentos no jogo}} |
 | Entrada/upload/seleção de dados | sim | {{sim}} | {{interação do usuário com a gamificação}} |
 | Acompanhamento de processamento | sim | {{sim}} | {{acompanhamento das etapas de aprendizagem no jogo}} |
-| Relatório/resultados | sim | {{sim}} | {{...}} |
+| Relatório/resultados | sim | {{sim}} | {{}} |
 | Histórico com busca/filtros | sim/não/talvez | {{...}} | {{...}} |
 | Comparação de resultados | sim/não/talvez | {{...}} | {{...}} |
 | Explicabilidade/detalhamento | sim/não/talvez | {{...}} | {{...}} |
