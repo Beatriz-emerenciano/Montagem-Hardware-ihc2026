@@ -137,17 +137,17 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 |---|---|---|---|
 | {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
 
-Estudante aluno| usuário final e principal beneficiário|Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores|f - público-alvo definido|
+|{{Estudante e/ usuários que não possui conhecimentos/ usuário final e principal beneficiário}}||{{Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores}}|f - público-alvo definido|
 
-Instrutor de iformática| usuário educacional indireto|Poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware|H - possível aplicação|
+|{{Instrutor de iformática| usuário educacional indireto}}|{{Poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware}}|H - possível aplicação|
 
-Professor responsável pela pela disciplina| steakholders educacional|Poderia interpretar o desempenho dos alunos e utilizar os resultados para identificar dificuldades de aprendizagem|H - depende da implementação de recursos de acompanhamento|
+|{{Professor responsável pela pela disciplina/ steakholders educacional}}|{{Poderia interpretar o desempenho dos alunos e utilizar os resultados para identificar dificuldades de aprendizagem}}|H - depende da implementação de recursos de acompanhamento|
 
-Instituição de ensino|Stakeholder institucional|Poderia disponibilizar o Serious Game como ferramenta complementar para disciplinas ou cursos relacionados a informática e hardware|H possível aplicação|
+|{{Instituição de ensino|Stakeholder institucional}}|{{Poderia disponibilizar o Serious Game como ferramenta complementar para disciplinas ou cursos relacionados a informática e hardware}}|H possível aplicação|
 
-Pesquisador da área de tecnologia|Usuário dos resultados da contribuição científica|Poderia analisar os resultados obtidos na avaliação do Serious Game e utilizá-los como referência para pesquisas futuras|H -aplicação acadêmica possível|
+|{{Pesquisador da área de tecnologia|Usuário dos resultados da contribuição científica}}|{{Poderia analisar os resultados obtidos na avaliação do Serious Game e utilizá-los como referência para pesquisas futuras}}|H -aplicação acadêmica possível|
 
-Equipe desenvolvedora|Administrador/configurador do sistema|Configuraria conteúdos, fases, componentes, regras e elementos do jogo|F - responsabilidade da equipe no desenvolvimento|
+|{{Equipe desenvolvedora|Administrador/configurador do sistema}}|{{Configuraria conteúdos, fases, componentes, regras e elementos do jogo}}|F - responsabilidade da equipe no desenvolvimento|
 
 
 
@@ -158,7 +158,7 @@ Equipe desenvolvedora|Administrador/configurador do sistema|Configuraria conteú
 |---|---|---|---|
 | {{...}} | {{...}} | sim/não | {{...}} |
 
-[H]Professores | Podem fornecer a interface para alunos para auxílio no estudo| sim/não, não é necessário mas pode utilizar para demonstração | 
+|{{Professores }}|{{ Podem fornecer a interface para alunos para auxílio no estudo}}| sim/não, não é necessário mas pode utilizar para demonstração |{{[H]}}| 
 
 ## 2.4 Que características desses perfis podem influenciar a interação?
 
@@ -166,11 +166,11 @@ Considere conhecimento do domínio, experiência tecnológica, frequência de us
 
 {{[F/H/?] ...}}
 
- [H] - Aluno  Podem ser beneficiados futuramente pela disponibilização do jogo como ferramenta de aprendizagem. 
- [H] - Professor pode utilizar o jogo como recurso complementar ao ensino e como apoio às atividades práticas.
-[H] -Instituição de ensino Pode incorporar a ferramenta como recurso educacional complementar e reduzir a necessidade de equipamentos físicos para determinadas atividades introdutória.
-[H] - Pesquisadores podem utilizar e interpretar os resultados da avaliação para pesquisas relacionadas a Serious Games, educação e tecnologia. 
-[H] - Instrutor de informática poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware
+ {{[H] - Aluno  Podem ser beneficiados futuramente pela disponibilização do jogo como ferramenta de aprendizagem. }}
+ {{[H] - Professor pode utilizar o jogo como recurso complementar ao ensino e como apoio às atividades práticas.}}
+{[[H] -Instituição de ensino Pode incorporar a ferramenta como recurso educacional complementar e reduzir a necessidade de equipamentos físicos para determinadas atividades introdutória.}}
+{{[H] - Pesquisadores podem utilizar e interpretar os resultados da avaliação para pesquisas relacionadas a Serious Games, educação e tecnologia.}}
+{{[H] - Instrutor de informática poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware}}
 
 # 3. Entendendo objetivos e atividades
 
@@ -226,47 +226,49 @@ Pode existir software concorrente, linha de comando, planilha, notebook, script,
 
 {{[F/H/?] ...}}
 
-[F] Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores pode ser realizado durante atividades presenciais, o estudante pode receber orientações de professores ou instrutores e não manipula diretamente os componentes.
-[F] Também existem conteúdos e tutoriais digitais (Softwares) que apresentam os componentes e demonstram procedimentos de montagem por meio de gamificação de softwares já existentes.
+{{[F] Atualmente, o aprendizado sobre identificação e montagem de componentes de computadores pode ser realizado durante atividades presenciais, o estudante pode receber orientações de professores ou instrutores e não manipula diretamente os componentes.}}
+{{[F] Também existem conteúdos e tutoriais digitais (Softwares) que apresentam os componentes e demonstram procedimentos de montagem por meio de gamificação de softwares já existentes.}}
 
 ## 4.2 O que é difícil, demorado, confuso, repetitivo, arriscado ou pouco transparente?
 
 {{[F/H/?] ...}}
 
-[F] Para estudantes iniciantes, pode ser difícil identificar corretamente os componentes de um computador e compreender a função de cada peça, principalmente quando os componentes possuem aparência semelhante ou diferentes modelos.
+{{[F] Para estudantes iniciantes, pode ser difícil identificar corretamente os componentes de um computador e compreender a função de cada peça, principalmente quando os componentes possuem aparência semelhante ou diferentes modelos.}}
 
-[F] Também pode ser difícil compreender a ordem de montagem e identificar corretamente onde cada componente deve ser instalado. A aprendizagem prática depende, muitas vezes, da disponibilidade de equipamentos físicos e da orientação de um professor ou pessoa com conhecimento técnico.
+{{[F] Também pode ser difícil compreender a ordem de montagem e identificar corretamente onde cada componente deve ser instalado. A aprendizagem prática depende, muitas vezes, da disponibilidade de equipamentos físicos e da orientação de um professor ou pessoa com conhecimento técnico.}}
 
-[F] Os componentes são muito delicados e além de possuir pequenos pinos que podem entortar no processo de montagem ainda podem ser danificados pela eletrização do corpo humano.
+{{[F] Os componentes são muito delicados e além de possuir pequenos pinos que podem entortar no processo de montagem ainda podem ser danificados pela eletrização do corpo humano.}}
 
 ## 4.3 Que informações o profissional precisa interpretar para tomar decisão?
 
 {{[F/H/?] ...}}
-[F] O estudante precisa interpretar informações relacionadas à identificação dos componentes, suas funções, características básicas, por exemplo a compatibilidade e local de instalação na placa-mãe.
 
-[F] Durante a montagem, também precisa compreender a sequência adequada das etapas e reconhecer os locais correspondentes a cada componente.
+{{[F] O estudante precisa interpretar informações relacionadas à identificação dos componentes, suas funções, características básicas, por exemplo a compatibilidade e local de instalação na placa-mãe.}}
 
-[H] O estudante pode utilizar essas informações para decidir qual componente deve ser instalado, onde deve ser colocado e qual procedimento deve ser realizado em cada etapa da montagem.
+{{[F] Durante a montagem, também precisa compreender a sequência adequada das etapas e reconhecer os locais correspondentes a cada componente.}}
 
-[F] Durante a escolha das peças do computador que será montado o conhecimento para que os componentes sejam compatíveis e a maquina funcione corretamente é essencial.
+{{[H] O estudante pode utilizar essas informações para decidir qual componente deve ser instalado, onde deve ser colocado e qual procedimento deve ser realizado em cada etapa da montagem.}}
+
+{{[F] Durante a escolha das peças do computador que será montado o conhecimento para que os componentes sejam compatíveis e a maquina funcione corretamente é essencial.}}
 
 ## 4.4 O que acontece quando a atividade falha ou quando o resultado é interpretado incorretamente?
 
 {{[F/H/?] ...}}
-[F] Quando um estudante identifica incorretamente um componente ou interpreta de forma equivocada as instruções de montagem, pode realizar uma etapa incorreta ou instalar um componente em um local inadequado.
+{{[F] Quando um estudante identifica incorretamente um componente ou interpreta de forma equivocada as instruções de montagem, pode realizar uma etapa incorreta ou instalar um componente em um local inadequado.}}
 
-[F] Em uma atividade prática com equipamentos reais, um procedimento inadequado pode resultar em danos aos componentes dependendo do procedimento realizado, além de exigir a intervenção de um professor ou técnico para identificar e corrigir o erro.
+{{[F] Em uma atividade prática com equipamentos reais, um procedimento inadequado pode resultar em danos aos componentes dependendo do procedimento realizado, além de exigir a intervenção de um professor ou técnico para identificar e corrigir o erro.}}
 
-[H] No contexto educacional, a repetição de procedimentos incorretos sem feedback adequado pode contribuir para a consolidação de conhecimentos equivocados e danificação de componentes.
+{{[H] No contexto educacional, a repetição de procedimentos incorretos sem feedback adequado pode contribuir para a consolidação de conhecimentos equivocados e danificação de componentes.}}
 
-[F] Além disso, erros durante atividades práticas podem gerar insegurança no estudante e aumentar a necessidade de acompanhamento por parte do professor ou instrutor.
+{{[F] Além disso, erros durante atividades práticas podem gerar insegurança no estudante e aumentar a necessidade de acompanhamento por parte do professor ou instrutor.}}
 
 ## 4.5 Conte uma situação concreta.
 
 Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificuldade e consequência. **Não descreva ainda a futura solução.**
 
 {{[F/H/?] narrativa...}}
-[H] Um estudante iniciante que recentemente comprou um hardware e quer montar um computador durante uma aula prática de hardware. Ele identifica corretamente a memória RAM, mas possui dúvidas sobre quais slots da placa-mãe devem ser utilizados e sobre a orientação correta para encaixar o componente. Como não tem experiência suficiente para tomar a decisão sozinho, consulta o material fornecido e solicita auxílio ao professor. Enquanto aguarda a orientação, a atividade fica interrompida. Em uma situação diferente, caso o estudante prossiga sem identificar corretamente o procedimento, poderá realizar a instalação de maneira inadequada e precisar desfazer a etapa para corrigir o erro. A dificuldade em compreender o procedimento pode aumentar o tempo necessário para concluir a atividade e prejudicar a confiança do estudante.
+
+{{[H] Um estudante iniciante que recentemente comprou um hardware e quer montar um computador durante uma aula prática de hardware. Ele identifica corretamente a memória RAM, mas possui dúvidas sobre quais slots da placa-mãe devem ser utilizados e sobre a orientação correta para encaixar o componente. Como não tem experiência suficiente para tomar a decisão sozinho, consulta o material fornecido e solicita auxílio ao professor. Enquanto aguarda a orientação, a atividade fica interrompida. Em uma situação diferente, caso o estudante prossiga sem identificar corretamente o procedimento, poderá realizar a instalação de maneira inadequada e precisar desfazer a etapa para corrigir o erro. A dificuldade em compreender o procedimento pode aumentar o tempo necessário para concluir a atividade e prejudicar a confiança do estudante.}}
 
 ## 4.6 Que evidência existe hoje?
 
@@ -285,19 +287,19 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 ## 5.1 Onde e em quais situações a interação poderia ocorrer?
 
 {{[F/H/?] ...}}
-[H] A interação com o Serious Game poderá ocorrer em diferentes contextos de aprendizagem, como salas de aula, laboratórios de informática, ambientes de estudo e na residência do estudante. Por ser uma aplicação Web, o usuário poderá acessar o sistema por meio de um navegador, permitindo que as atividades sejam realizadas tanto individualmente quanto como atividade complementar orientada por um professor.
+{{[H] A interação com o Serious Game poderá ocorrer em diferentes contextos de aprendizagem, como salas de aula, laboratórios de informática, ambientes de estudo e na residência do estudante. Por ser uma aplicação Web, o usuário poderá acessar o sistema por meio de um navegador, permitindo que as atividades sejam realizadas tanto individualmente quanto como atividade complementar orientada por um professor.}}
 
-[H] Em um contexto educacional, o jogo poderá ser utilizado antes de uma atividade prática com componentes físicos, durante atividades de aprendizagem ou como forma de revisão do conteúdo.
+{{[H] Em um contexto educacional, o jogo poderá ser utilizado antes de uma atividade prática com componentes físicos, durante atividades de aprendizagem ou como forma de revisão do conteúdo.}}
 
 ## 5.2 Em quais dispositivos/equipamentos?
 
 {{[F/H/?] ...}}
 
-[F] Os principais dispositivos considerados são smartphones, tablets e computadores/notebooks.
+{{[F] Os principais dispositivos considerados são smartphones, tablets e computadores/notebooks.}}
 
-[F] Nos dispositivos móveis, a interação será realizada principalmente por meio de toque na tela. Em computadores e notebooks, a interação poderá utilizar mouse e teclado.
+{{[F] Nos dispositivos móveis, a interação será realizada principalmente por meio de toque na tela. Em computadores e notebooks, a interação poderá utilizar mouse e teclado.}}
 
-[H] O sistema poderá ser desenvolvido com interface responsiva para adaptar a apresentação do jogo a diferentes tamanhos de tela.
+{{[H] O sistema poderá ser desenvolvido com interface responsiva para adaptar a apresentação do jogo a diferentes tamanhos de tela.}]
 
 
 ## 5.3 Existem condições físicas relevantes?
@@ -305,13 +307,13 @@ Escreva uma pequena narrativa com pessoa, objetivo, atividade, contexto, dificul
 Considere iluminação, ruído, mobilidade, conexão, privacidade, uso compartilhado, interrupções, pressão de tempo etc.
 
 {{[F/H/?] ...}}
-[F] Por se tratar de uma aplicação Web, o Serious Game poderá ser utilizado em diferentes ambientes, como salas de aula, laboratórios de informática ou na residência do estudante. Não há necessidade de condições físicas específicas de iluminação ou ruído para a utilização da interface.
+{{[F] Por se tratar de uma aplicação Web, o Serious Game poderá ser utilizado em diferentes ambientes, como salas de aula, laboratórios de informática ou na residência do estudante. Não há necessidade de condições físicas específicas de iluminação ou ruído para a utilização da interface.}}
 
-[F] Uma condição relevante é a disponibilidade de um dispositivo compatível e de conexão com a Internet para acessar a aplicação.
+{{[F] Uma condição relevante é a disponibilidade de um dispositivo compatível e de conexão com a Internet para acessar a aplicação.}}
 
-[H] Em dispositivos móveis, o tamanho da tela pode influenciar a interação com os modelos 3D e elementos do jogo, sendo necessário considerar uma interface responsiva e adequada ao uso por toque.
+{{[H] Em dispositivos móveis, o tamanho da tela pode influenciar a interação com os modelos 3D e elementos do jogo, sendo necessário considerar uma interface responsiva e adequada ao uso por toque.}}
 
-[?] O usuário poderá sofrer interrupções durante a atividade, principalmente quando utilizar o sistema em ambientes externos ou compartilhados. Por isso, o salvamento do progresso poderá permitir que o estudante retome as atividades posteriormente.
+{{[?] O usuário poderá sofrer interrupções durante a atividade, principalmente quando utilizar o sistema em ambientes externos ou compartilhados. Por isso, o salvamento do progresso poderá permitir que o estudante retome as atividades posteriormente.}}
 
 ## 5.4 Existem fatores sociais ou organizacionais?
 
@@ -319,20 +321,21 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 
 {{[F/H/?] ...}}
 
-[F] Durante o desenvolvimento e avaliação do projeto, a equipe responsável pelo TCC será responsável pela configuração dos conteúdos, implementação das funcionalidades e realização dos testes.
+{{[F] Durante o desenvolvimento e avaliação do projeto, a equipe responsável pelo TCC será responsável pela configuração dos conteúdos, implementação das funcionalidades e realização dos testes.}}
 
 ## 5.5 Existe necessidade de histórico, rastreabilidade ou auditoria?
 
 {{[F/H/?] ...}}
-[F] Para o funcionamento básico do Serious Game, não há necessidade de mecanismos formais de auditoria ou rastreabilidade, pois o sistema possui finalidade educacional e não envolve decisões profissionais críticas. Entretanto, o armazenamento do progresso do estudante, como fases concluídas, pontuação, erros e desempenho, poderá ser utilizado para permitir que o usuário acompanhe sua evolução durante o uso da aplicação.
 
-[H] Durante a avaliação do TCC, dados relacionados ao desempenho dos participantes poderão ser registrados para posterior análise dos resultados, respeitando os procedimentos definidos para a pesquisa.
+{[[F] Para o funcionamento básico do Serious Game, não há necessidade de mecanismos formais de auditoria ou rastreabilidade, pois o sistema possui finalidade educacional e não envolve decisões profissionais críticas. Entretanto, o armazenamento do progresso do estudante, como fases concluídas, pontuação, erros e desempenho, poderá ser utilizado para permitir que o usuário acompanhe sua evolução durante o uso da aplicação.}}
+
+{[[H] Durante a avaliação do TCC, dados relacionados ao desempenho dos participantes poderão ser registrados para posterior análise dos resultados, respeitando os procedimentos definidos para a pesquisa.}}
 
 ## 5.6 Um erro pode produzir consequência relevante? Qual?
 
 {{[F/H/?] ...}}
 
-[F] No contexto do Serious Game, um erro cometido pelo estudante durante uma atividade virtual não produz dano físico aos componentes, pois a interação ocorre em um ambiente simulado. Entretanto, a apresentação de uma informação incorreta, a validação inadequada de uma montagem ou um feedback equivocado pode levar o estudante a compreender ou memorizar um procedimento incorreto. Caso esse conhecimento seja posteriormente aplicado em uma montagem física, um procedimento inadequado poderá causar mau funcionamento ou, dependendo da ação realizada, danos aos componentes. Por isso, a precisão das informações e das regras de validação do jogo é relevante para a confiabilidade educacional da aplicação.
+{{[F] No contexto do Serious Game, um erro cometido pelo estudante durante uma atividade virtual não produz dano físico aos componentes, pois a interação ocorre em um ambiente simulado. Entretanto, a apresentação de uma informação incorreta, a validação inadequada de uma montagem ou um feedback equivocado pode levar o estudante a compreender ou memorizar um procedimento incorreto. Caso esse conhecimento seja posteriormente aplicado em uma montagem física, um procedimento inadequado poderá causar mau funcionamento ou, dependendo da ação realizada, danos aos componentes. Por isso, a precisão das informações e das regras de validação do jogo é relevante para a confiabilidade educacional da aplicação.}}
 
 ---
 
@@ -351,49 +354,49 @@ Considere papéis, chefias, equipes, permissões, aprovação, responsabilidade 
 ## 6.2 Existem produtos que atuam na mesma área, mesmo sem serem equivalentes ao TCC?
 
 {{[F/H/?] ...}}
-[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.
-[F] Assistente de montagem de PC IA MANUS.
+{{[F] PC Building Simulator, que permite simular montagem e reparo e apresenta instruções passo a passo para iniciantes.}}
+{{[F] Assistente de montagem de PC IA MANUS.}}
 
 ## 6.3 Quais interfaces profissionais esse público já conhece?
 
 Exemplos possíveis: ferramentas de banco, IDEs, consoles de nuvem, dashboards, plataformas de dados, ferramentas de monitoramento, painéis de IA, sistemas administrativos.
-[F] > Assistente de montagem de PC IA MANUS.
-[F] > PC Building Simulator
-{{[F/H/?] ...}}
+{{[F] > Assistente de montagem de PC IA MANUS.}}
+{{[F] > PC Building Simulator}}
+
 
 ## 6.4 O que essas soluções parecem fazer bem?
 
 {{[F/H/?] ...}}
-[F] As soluções existentes parecem apresentar bem os componentes de computador e seus respectivos locais de instalação, utilizando imagens, modelos 3D, vídeos ou simulações.
+{{[[F] As soluções existentes parecem apresentar bem os componentes de computador e seus respectivos locais de instalação, utilizando imagens, modelos 3D, vídeos ou simulações.}}
 
-[F] Simuladores e jogos permitem que o usuário pratique procedimentos de montagem em um ambiente virtual, reduzindo a necessidade de utilizar imediatamente componentes físicos.
+{{[F] Simuladores e jogos permitem que o usuário pratique procedimentos de montagem em um ambiente virtual, reduzindo a necessidade de utilizar imediatamente componentes físicos.}}
 
-[F] Algumas soluções apresentam instruções passo a passo, permitindo que usuários iniciantes acompanhem a sequência necessária para realizar determinadas atividades.
+{{[F] Algumas soluções apresentam instruções passo a passo, permitindo que usuários iniciantes acompanhem a sequência necessária para realizar determinadas atividades.}}
 
-[H] A utilização de elementos de jogo, como desafios, progressão e feedback, pode contribuir para tornar a aprendizagem mais interativa e estimular o usuário a repetir as atividades.
+{{[H] A utilização de elementos de jogo, como desafios, progressão e feedback, pode contribuir para tornar a aprendizagem mais interativa e estimular o usuário a repetir as atividades.}}
 
 ## 6.5 O que parecem fazer mal, dificultar ou não atender?
 
 {{[F/H/?] ...}}
-[H] Algumas soluções podem apresentar uma quantidade elevada de informações e funcionalidades, tornando a experiência mais complexa para usuários que estão tendo o primeiro contato com montagem de computadores.
+{{[H] Algumas soluções podem apresentar uma quantidade elevada de informações e funcionalidades, tornando a experiência mais complexa para usuários que estão tendo o primeiro contato com montagem de computadores.}}
 
-[H] Soluções de simulação mais completas podem exigir computadores com maior capacidade de processamento ou instalação de softwares, dificultando o acesso em dispositivos mais simples.
+{{[H] Soluções de simulação mais completas podem exigir computadores com maior capacidade de processamento ou instalação de softwares, dificultando o acesso em dispositivos mais simples.}}
 
-[H] Algumas alternativas podem estar mais voltadas à simulação de montagem e reparo para usuários interessados em hardware do que especificamente ao processo de aprendizagem introdutória.
+{{[H] Algumas alternativas podem estar mais voltadas à simulação de montagem e reparo para usuários interessados em hardware do que especificamente ao processo de aprendizagem introdutória.}}
 
-[H] Soluções que dependem de equipamentos específicos, como dispositivos de realidade virtual, podem apresentar maior dificuldade de acesso devido à necessidade de hardware adicional.
+{{[H] Soluções que dependem de equipamentos específicos, como dispositivos de realidade virtual, podem apresentar maior dificuldade de acesso devido à necessidade de hardware adicional.}}
 
 ## 6.6 Que padrões de interface ou vocabulário parecem familiares a esse público?
 
 {{[F/H/?] ...}}
 
-[F] O público provavelmente está familiarizado com interfaces baseadas em menus, botões, ícones, imagens e elementos de interação comuns em jogos e aplicações Web.
+{{[F] O público provavelmente está familiarizado com interfaces baseadas em menus, botões, ícones, imagens e elementos de interação comuns em jogos e aplicações Web.}}
 
-[F] Termos relacionados a componentes de hardware, como CPU, RAM, GPU, SSD, placa-mãe e fonte de alimentação, são utilizados em materiais e aplicações relacionadas ao tema.
+{{[F] Termos relacionados a componentes de hardware, como CPU, RAM, GPU, SSD, placa-mãe e fonte de alimentação, são utilizados em materiais e aplicações relacionadas ao tema.}}
 
-[H] Para usuários iniciantes, termos técnicos podem não ser completamente familiares, sendo necessário apresentar explicações simples e contextualizadas durante o processo de aprendizagem.
+{{[H] Para usuários iniciantes, termos técnicos podem não ser completamente familiares, sendo necessário apresentar explicações simples e contextualizadas durante o processo de aprendizagem.}}
 
-[H] Elementos comuns de jogos, como "Iniciar", "Próxima fase", "Pontuação", "Concluir", "Tentar novamente", "Acerto" e "Erro", tendem a ser familiares para usuários que possuem experiência com jogos digitais.
+{{[H] Elementos comuns de jogos, como "Iniciar", "Próxima fase", "Pontuação", "Concluir", "Tentar novamente", "Acerto" e "Erro", tendem a ser familiares para usuários que possuem experiência com jogos digitais.}}
 
 ---
 
@@ -407,7 +410,7 @@ Explique qual parte da interface será usada como recorte da disciplina e por qu
 
 {{O recorte da interface será o fluxo de aprendizagem e montagem virtual de componentes de hardware, desde a seleção de um componente no jogo até sua identificação, visualização das informações, posicionamento no local correto e recebimento de feedback sobre a ação realizada.}}
 
-O recorte da interface será o fluxo de aprendizagem e montagem virtual de componentes de hardware, desde a seleção de um componente até sua identificação, visualização das informações, posicionamento no local correto e recebimento de feedback. Esse fluxo é relevante por representar a principal interação do estudante com o Serious Game e estar diretamente relacionado ao objetivo de ensinar conceitos e procedimentos básicos de montagem de computadores. Além disso, permite avaliar aspectos de IHC, como aprendizagem, clareza, feedback, prevenção de erros e facilidade de interação.
+{{O recorte da interface será o fluxo de aprendizagem e montagem virtual de componentes de hardware, desde a seleção de um componente até sua identificação, visualização das informações, posicionamento no local correto e recebimento de feedback. Esse fluxo é relevante por representar a principal interação do estudante com o Serious Game e estar diretamente relacionado ao objetivo de ensinar conceitos e procedimentos básicos de montagem de computadores. Além disso, permite avaliar aspectos de IHC, como aprendizagem, clareza, feedback, prevenção de erros e facilidade de interação.}}
 
 ### Caminho B — TCC não possui interface prevista
 
@@ -428,21 +431,21 @@ Responda:
 
 ## 7.2 Qual perfil será priorizado no projeto de IHC?
 
-{{Aluno}}
+{{Usuário que não possui ou possui pouco conhecimento sobre hardware}}
 
-**Por que esse perfil foi escolhido?** {{Pois esse será melhor trabalhando ao longo do projeto}}
+**Por que esse perfil foi escolhido?** {{Pois esse será melhor aproveitado ao longo do projeto para validação da eficácia das metodologias e experimentos.}}
 
 ## 7.3 Qual objetivo desse usuário será priorizado?
 
-{{Aprender sobre os componentes e montar um hardware}}
+{{Aplicar metodologias que resultem no usuário absorver conhecimento sobre os componentes e montagem de hardware}}
 
 ## 7.4 Que interface será explorada na disciplina?
 
-Complete: Montagem de hardware e tutorial, avaliação.
+Complete: Montagem de hardware, tutorial, avaliação.
 
 > **Para fins da disciplina de IHC, será projetada uma interface que permita a `{{perfil}}` utilizar `{{capacidade/resultado do TCC}}` para `{{objetivo}}`, no contexto de `{{situação}}`.**
 
-{{...}}
+{{Para fins da discplina de IHC, será projetada uma interface que permita o usuário,utilizar uma plataforma tutorizada/montagem de montagem de hardware para o objetivo de desenvolver conhecimentos e solidificar os conhecimentos a respeito de hardware e analisar a eficácia da metodologia aplicada com conceitos de interface para obter esse resultado }}
 
 ## 7.5 Qual é a relação dessa interface com o TCC?
 
@@ -464,11 +467,11 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | sim/não/talvez | {{dashbord}} | {{talvez}} |
-| Configuração/parametrização | sim/não/talvez | {{parametrização}} | {{talvez}} |
-| Entrada/upload/seleção de dados | sim/não/talvez | {{seleção de dados}} | {{sim}} |
-| Acompanhamento de processamento | sim/não/talvez | {{...}} | {{...}} |
-| Relatório/resultados | sim/não/talvez | {{...}} | {{...}} |
+| Dashboard/visão geral | talvez | {{sim}} | {{questionário para analise comparativa de resultados}} | H|
+| Configuração/parametrização | sim | {{ sim}} | {{analise e configuração de paramentos no jogo}} |
+| Entrada/upload/seleção de dados | sim | {{sim}} | {{interação do usuário com a gamificação}} |
+| Acompanhamento de processamento | sim | {{sim}} | {{acompanhamento das etapas de aprendizagem no jogo}} |
+| Relatório/resultados | sim | {{sim}} | {{...}} |
 | Histórico com busca/filtros | sim/não/talvez | {{...}} | {{...}} |
 | Comparação de resultados | sim/não/talvez | {{...}} | {{...}} |
 | Explicabilidade/detalhamento | sim/não/talvez | {{...}} | {{...}} |
