@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
 **Data:** 13/08/2026
-**Status:** 🟨 Em andamento 
+**Status:** 🟩 concluída
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -461,20 +461,20 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Possibilidade | Pode fazer sentido? | Objetivo/tarefa que justificaria | Evidência atual |
 |---|---|---|---|
-| Dashboard/visão geral | talvez | {{sim}} | {{questionário para analise comparativa de resultados}} | H|
-| Configuração/parametrização | sim | {{ sim}} | {{analise e configuração de paramentos no jogo}} |
-| Entrada/upload/seleção de dados | sim | {{sim}} | {{interação do usuário com a gamificação}} |
-| Acompanhamento de processamento | sim | {{sim}} | {{acompanhamento das etapas de aprendizagem no jogo}} |
-| Relatório/resultados | sim | {{sim}} | {{}} |
-| Histórico com busca/filtros | sim/não/talvez | {{...}} | {{...}} |
-| Comparação de resultados | sim/não/talvez | {{...}} | {{...}} |
-| Explicabilidade/detalhamento | sim/não/talvez | {{...}} | {{...}} |
-| Administração/configurações globais | sim/não/talvez | {{...}} | {{...}} |
-| Usuários/perfis/permissões | sim/não/talvez | {{...}} | {{...}} |
-| CRUD de entidade do domínio | sim/não/talvez | {{...}} | {{...}} |
-| Auditoria/logs | sim/não/talvez | {{...}} | {{...}} |
-| Alertas/ocorrências | sim/não/talvez | {{...}} | {{...}} |
-| Ajuda/documentação | sim/não/talvez | {{...}} | {{...}} |
+| Dashboard/visão geral | talvez | {{sim}} | {{questionário para analise comparativa de resultados}} | {{H}}|
+| Configuração/parametrização | sim | {{ sim}} | {{analise e configuração de paramentos no jogo}} |{{F}}|
+| Entrada/upload/seleção de dados | sim | {{sim}} | {{interação do usuário com a gamificação}} |{{F}]|
+| Acompanhamento de processamento | sim | {{sim}} | {{acompanhamento das etapas de aprendizagem no jogo}}|{{F}} |
+| Relatório/resultados | sim | {{sim|{{análise do estudo experimental}} |{{F}}|
+| Histórico com busca/filtros | não | {{não}} | {{não se aplica}} | ?|
+| Comparação de resultados | sim | {{sim}} | {{comparar os resultados do estudo experimental}} |F|
+| Explicabilidade/detalhamento | sim | {{para ensinamento e montagem de hardware através da plataforma de jogo}} | {{F}} |
+| Administração/configurações globais | sim | {{sim}} | {{para contrução da gamificação}} | {H}
+| Usuários/perfis/permissões | talvez | {{sim}} | {{para separar e identificar o perfil de quem é usuário e quem é o administrador do jogo}} | F|
+| CRUD de entidade do domínio | talvez | {{talvez}} | {{para configuração de jogo}} | ?|
+| Auditoria/logs | não | {{não}} | {{não se aplica}} | ? |
+| Alertas/ocorrências | não | {{não}} | {{não se aplica}} | ?|
+| Ajuda/documentação | talvez | {{sim}} | {{para endimento e funcionamento do software}} | H|
 
 > **Atenção:** “login + dashboard + CRUD” não é uma solução universal. Cada padrão deve surgir de uma tarefa real.
 
@@ -486,13 +486,27 @@ Marque apenas as que parecem plausíveis e explique o objetivo correspondente.
 
 | Benefício esperado | Problema/necessidade | Usuário | Status/evidência |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| {{Transmitir conhecimento de hardware ao usuários e com estudo experimental verificar a eficácia da metodologia}} | {{usuários que necessitam ou tem dificuldade de adquerir conhecimento sobre hardware}} | {{pessoas que não possuem conhecimento ou possuem pouco conhecimento sobre hardware}} | {{F}} |
 
 ## 9.2 Que ações o usuário deverá conseguir realizar?
 
 | ID | O usuário precisa conseguir... | Para alcançar... | Prioridade inicial |
 |---|---|---|---|
 | F01 | {{ação}} | {{objetivo}} | alta/média/baixa |
+| ID | O usuário precisa conseguir... | Para alcançar... | Prioridade inicial |
+|---|---|---|---|
+| F01 | Acessar o Serious Game pelo navegador | Iniciar as atividades de aprendizagem sobre hardware | Alta |
+| F02 | Acessar um tutorial sobre os componentes de hardware | Aprender a identificar os componentes e compreender suas funções | Alta |
+| F03 | Visualizar os componentes em um ambiente 3D interativo | Reconhecer suas características e partes principais | Alta |
+| F04 | Selecionar um componente de hardware | Identificar corretamente o componente apresentado | Alta |
+| F05 | Consultar informações sobre um componente | Compreender sua função e sua utilização no computador | Alta |
+| F06 | Arrastar e posicionar um componente no local indicado | Praticar virtualmente a montagem do computador | Alta |
+| F07 | Receber feedback após uma ação | Saber se realizou corretamente ou incorretamente a atividade | Alta |
+| F08 | Avançar pelas etapas de uma atividade de montagem | Aprender a sequência básica de montagem dos componentes | Alta |
+| F09 | Repetir uma atividade após um erro | Corrigir seus erros e reforçar o aprendizado | Média |
+| F10 | Visualizar sua pontuação ou progresso | Acompanhar seu desempenho durante as atividades | Média |
+| F11 | Concluir desafios ou fases do jogo | Verificar seu domínio dos conteúdos apresentados | Média |
+| F12 | Retomar seu progresso | Continuar as atividades sem precisar reiniciar todo o jogo | Média |
 
 ## 9.3 Tecnologias/restrições já definidas no TCC
 
@@ -501,16 +515,31 @@ A tecnologia aparece **agora**, depois do entendimento do uso.
 | Tecnologia/restrição | Por que existe | Possível impacto na interação |
 |---|---|---|
 | {{...}} | {{...}} | {{...}} |
+## 9.3 Tecnologias/restrições já definidas no TCC
 
+A tecnologia aparece **agora**, depois do entendimento do uso.
+
+| Tecnologia/restrição | Por que existe | Possível impacto na interação |
+|---|---|---|
+| Aplicação Web | Permitir que o Serious Game seja acessado diretamente pelo navegador | Facilita o acesso em diferentes dispositivos, sem necessidade de instalação |
+| JavaScript | Linguagem utilizada no desenvolvimento da aplicação e das interações | Permite implementar as mecânicas do jogo e responder às ações do usuário |
+| Three.js | Permitir a criação e interação com o ambiente 3D no navegador | Exige interação com objetos 3D, como seleção, movimentação e posicionamento dos componentes |
+| Modelos 3D | Representar visualmente os componentes de hardware | Permite que o usuário visualize e manipule os componentes de forma mais próxima de uma montagem real |
+| Blender | Realizar ajustes e preparação dos modelos 3D utilizados na aplicação | Pode influenciar o nível de detalhamento e desempenho dos modelos apresentados |
+| LocalStorage | Armazenar informações simples sobre o progresso do usuário no navegador | Permite retomar atividades e manter informações como progresso, pontuação e etapas concluídas sem um servidor |
+| Restrição de acesso via navegador | O jogo será executado em navegadores compatíveis, dependendo de recursos gráficos disponíveis | O desempenho da aplicação pode variar conforme o dispositivo e o navegador utilizado |
+| Sem necessidade de câmera ou AR | Reduzir a complexidade do projeto e manter o foco na aprendizagem e montagem virtual | A interação ocorre diretamente na tela, sem necessidade de reconhecimento de objetos ou uso da câmera |
 ---
 
 # 10. Hipóteses e dúvidas prioritárias
 
 | ID | Hipótese/dúvida | Por que importa | Como poderá ser investigada |
 |---|---|---|---|
-| H01 | {{...}} | {{...}} | Entrega 2/3/7/... |
-| H02 | {{...}} | {{...}} | {{...}} |
-| H03 | {{...}} | {{...}} | {{...}} |
+| H01 | {{}} | {{...}} | Entrega 2/3/7/... |
+| H01 | O uso do Serious Game Web 3D pode contribuir para o aprendizado sobre identificação e montagem de componentes de hardware | Verificar se a aplicação cumpre seu objetivo educacional | Aplicação de pré-teste e pós-teste de conhecimento com os participantes |
+| H02 | A interação com os componentes em um ambiente 3D pode facilitar a compreensão das etapas de montagem | Verificar se a interação prática virtual contribui para a compreensão do conteúdo | Observação do desempenho dos participantes durante as atividades e aplicação de questionário |
+| H03 | O feedback imediato pode auxiliar o usuário a identificar e corrigir seus erros durante as atividades | Verificar se o feedback contribui para o aprendizado e para a execução correta das atividades | Análise dos erros, tentativas e evolução do desempenho durante o jogo |
+| H04 | Usuários iniciantes conseguem utilizar o Serious Game sem dificuldades significativas | Verificar se a aplicação possui usabilidade adequada para o público-alvo | Teste de usabilidade e questionário após a utilização do jogo |
 
 Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
@@ -520,23 +549,28 @@ Registre em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
 
 | Pergunta | Síntese atual |
 |---|---|
-| Qual é a contribuição central do TCC? | {{...}} |
-| O TCC já previa interface? | {{...}} |
-| Quem é o usuário prioritário de IHC? | {{...}} |
-| O que ele precisa alcançar? | {{...}} |
-| Qual problema/atividade será estudado? | {{...}} |
-| Como isso acontece hoje? | {{...}} |
-| Qual é o contexto de uso? | {{...}} |
-| Que interface/recorte será explorado? | {{...}} |
-| Como a interface se relaciona ao TCC? | {{...}} |
-| Quais pontos ainda são hipóteses? | {{H01...}} |
+| Qual é a contribuição central do TCC? | {{Contribuir para o aprendizado sobre identificação e montagem de componentes de hardware}} |
+| O TCC já previa interface? | {{sim}} |
+| Quem é o usuário prioritário de IHC? | {{Pessoa iniciante}} |
+| O que ele precisa alcançar? | {{adquerir conhecimentos básicos a sólidos em hardware}} |
+| Qual problema/atividade será estudado? | {{ Verificar se a aplicação cumpre seu objetivo educacional e  Verificar se a interação prática virtual contribui para a compreensão do conteúdo}} |
+| Como isso acontece hoje? | {{através de pesquisa em artigos relacionados a tema iremos aplicar metodologias e desenvolver um jogo sério}} |
+| Qual é o contexto de uso? | {{transmitir e analisar a eficácia do conhecimento }} |
+| Que interface/recorte será explorado? | {{montagem de hardware}} |
+| Como a interface se relaciona ao TCC? | {{relaciona-se de maneira direta e pode impactá no resultado esperado}} |
+| Quais pontos ainda são hipóteses? 
+| H01 - O Serious Game Web 3D contribui para o aprendizado sobre identificação e montagem de componentes de hardware? |
+| H02 - A interação com modelos 3D facilita a compreensão das etapas de montagem? |
+| H03 - O feedback imediato ajuda o usuário a identificar e corrigir seus erros? |
+| H04 - Estudantes iniciantes conseguem utilizar o Serious Game com facilidade? |
+| H05 - O tutorial prepara adequadamente o usuário para realizar as atividades do jogo? |
 
 ### Delimitação
 
-**Dentro do escopo de IHC:** {{...}}  
-**Fora do escopo de IHC:** {{...}}  
-**Dentro do escopo formal do TCC:** {{...}}  
-**Interface da disciplina será implementada no TCC?** não definido / sim / não — {{justificativa, se houver}}
+**Dentro do escopo de IHC:** {{sim}}  
+**Fora do escopo de IHC:** {{não}}  
+**Dentro do escopo formal do TCC:** {{sim}}  
+**Interface da disciplina será implementada no TCC?**  sim  — {{ háveratotalmente a necessidade de interação gráfica}} 
 
 ---
 
@@ -560,9 +594,9 @@ A Entrega 1 é uma **fotografia inicial do conhecimento**. Ela pode e deve ser r
 
 Prepare uma explicação de até três frases:
 
-1. **Problema/atividade humana:** {{...}}
-2. **Contribuição técnica do TCC:** {{...}}
-3. **Como uma pessoa poderia utilizar essa contribuição:** {{...}}
+1. **Problema/atividade humana:** {{ Dificuldade de estudantes iniciantes em identificar componentes de hardware, compreender suas funções e aprender as etapas básicas de montagem de um computador, especialmente quando possuem pouca oportunidade de realizar práticas com equipamentos reais.}}
+2. **Contribuição técnica do TCC:** {{ Desenvolvimento de um Serious Game Web 3D que permite ao estudante aprender sobre componentes de hardware e praticar virtualmente etapas básicas de montagem, por meio de tutorial, interação com modelos 3D, desafios e feedback imediato.}}
+3. **Como uma pessoa poderia utilizar essa contribuição:** {{O estudante pode acessar o jogo pelo navegador, consultar o tutorial, identificar os componentes, visualizar suas funções e realizar atividades interativas de montagem, recebendo feedback sobre suas ações e acompanhando seu progresso.}}
 
 Essa síntese ajuda a apresentar o projeto para público não especializado sem reduzir seu mérito técnico.
 
