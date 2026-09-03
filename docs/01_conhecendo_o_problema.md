@@ -137,8 +137,7 @@ Considere perfis profissionais e stakeholders, não apenas consumidores finais.
 |---|---|---|---|
 | {{DBA / analista / gestor / técnico / pesquisador / usuário final...}} | {{...}} | {{...}} | F / H / ? |
 
-|---|---|---|---|
-| Estudante e usuário que não possui conhecimentos prévios | Usuário final e principal beneficiário | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores. | F - Público-alvo definido |
+|{{ Estudante e usuário que não possui conhecimentos prévios | Usuário final e principal beneficiário | Utilizaria o Serious Game para aprender conceitos de hardware, identificar componentes e praticar virtualmente a montagem de computadores.}} | F - Público-alvo definido |
 | Instrutor de informática | Usuário educacional indireto | Poderia utilizar o jogo como recurso complementar às aulas e atividades práticas de hardware. | H - Possível aplicação |
 | Professor responsável pela disciplina | Stakeholder educacional | Poderia interpretar o desempenho dos alunos e utilizar os resultados para identificar dificuldades de aprendizagem. | H - Depende da implementação de recursos de acompanhamento |
 | Instituição de ensino | Stakeholder institucional | Poderia disponibilizar o Serious Game como ferramenta complementar para disciplinas ou cursos relacionados à informática e hardware. | H - Possível aplicação |
