@@ -8,16 +8,16 @@ Para projetos cujo TCC não previa interface, esta matriz é especialmente impor
 
 | Elemento | Registro da equipe | Evidência/justificativa | Estado |
 |---|---|---|---|
-| Tema do TCC | {{...}} | {{documento/TCC}} | definido |
-| Resultado técnico esperado | {{algoritmo, análise, sistema, modelo, API...}} | {{...}} | definido |
-| O TCC previa interface? | sim / não / parcialmente | {{...}} | definido |
-| Capacidade/contribuição central | {{o que a tecnologia permite}} | {{...}} | definido |
-| Possíveis beneficiários/stakeholders | {{...}} | {{fonte ou hipótese}} | F / H / ? |
-| Usuário escolhido para IHC | {{...}} | {{por que esse perfil}} | F / H / ? |
-| Objetivo principal do usuário | {{...}} | {{...}} | F / H / ? |
-| Contexto de uso adotado | {{...}} | {{...}} | F / H / ? |
-| Interface/recorte de IHC | {{...}} | {{como deriva dos itens acima}} | proposta / revisada |
-| Relação com o TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra | {{...}} | definido |
+| Tema do TCC | Analise de estudos | {{documento/TCC}} | definido |
+| Resultado técnico esperado | {{ análise, sistema}} | {{...}} | definido |
+| O TCC previa interface? | sim  | {{...}} | definido |
+| Capacidade/contribuição central | Tutorial interativo de montagem de Hardware| {{...}} | definido |
+| Possíveis beneficiários/stakeholders | { usuários / alunos / pessoas leigas} | {{fonte ou hipótese}} | F |
+| Usuário escolhido para IHC | Usuários que não possuem conhecimento sobre computadores| Porque o objetivo do software é oferecer conhecimento tecnológico para usuários leigos perante o assunto | F |
+| Objetivo principal do usuário | Aprender sobre computadores e como funciona e suas peças | {{...}} | F |
+| Contexto de uso adotado | auxiliar no aprendizado e analisar a eficácia do método educacional| {{...}} | F |
+| Interface/recorte de IHC | Interface web interativa para simulação da montagem de um computador, na qual o usuário seleciona, movimenta e posiciona componentes de hardware em uma representação digital.| verificação de conhecimento, tutorial e simulação de montagem| proposta |
+| Relação com o TCC | protótipo demonstrativo | definido |
 
 > Se o escopo de IHC mudar ao longo do semestre, preserve a decisão anterior no histórico e registre **qual evidência motivou a mudança**.
 
